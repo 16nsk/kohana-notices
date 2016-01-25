@@ -35,7 +35,7 @@ class Kohana_Notices
 	 * @param   array    $values      Values to replace the ones in the message using `__()`
 	 * @return	Notice
 	 */
-	public static function add($type, $key, array $values = NULL)
+	public static function add($type, $key, $values = NULL)
 	{
 		// The hash acts as a unique identifier.
 		Notices::$notices[$type] = array
